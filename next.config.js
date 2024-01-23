@@ -35,7 +35,9 @@ module.exports = withBundleAnalyzer({
     formats: ['image/avif', 'image/webp'],
     // 允许next/image加载的图片 域名
     domains: [
-      'api2.mubu.com', // 允许幕布复制过来的图片能被正常显示,
+      'api2.mubu.com', // 允许幕布复制过来的图片能被正常显示
+      'mubu.com',
+      'document-image.mubu.com',
       'gravatar.com',
       'www.notion.so',
       'avatars.githubusercontent.com',
